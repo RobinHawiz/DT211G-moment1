@@ -1,0 +1,53 @@
+const { optimize } = require("webpack");
+const { populateHtmlPlugins } = require("../utils/multipage.js");
+const pages = populateHtmlPlugins(["index"]);
+const path = require("path");
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+
+module.exports = {
+  entry: {
+    bundle: path.resolve(__dirname, "../src/index.js"),
+  },
+  output: {
+    assetModuleFilename: "img/[name][ext][query]",
+  },
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, "../dist"),
+    },
+    port: 8081,
+    open: true,
+    hot: true,
+    compress: true,
+    historyApiFallback: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
+      {
+        test: /\.(png|svg|jpe?g|gif|webp|avif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+  plugins: [
+    new BundleAnalyzerPlugin({
+      analyzerMode: "disabled",
+      generateStatsFile: true,
+    }),
+  ].concat(pages),
+};
