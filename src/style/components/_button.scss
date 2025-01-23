@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as v;
+
+button.generate-joke {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: v.$button-generate-joke-color;
+  color: v.$primary-color;
+  border: none;
+  border-radius: 1rem;
+  &:hover {
+    cursor: pointer;
+    background-color: v.$button-generate-joke-on-hover-color;
+  }
+}
