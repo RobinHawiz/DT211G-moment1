@@ -6,12 +6,14 @@ const generateHtmlPlugin = (pageName) => {
       title: pageName,
       filename: `index.html`,
       template: `./src/pages/index.html`,
+      inject: "body",
     });
   } else {
     return new HtmlWebpackPlugin({
       title: pageName,
       filename: `${pageName}/index.html`,
       template: `./src/pages/${pageName}/index.html`,
+      inject: "body",
     });
   }
 };
