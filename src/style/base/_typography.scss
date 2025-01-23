@@ -8,12 +8,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
 h1 {
   font-size: v.$h1-font;
 }
 
 h2 {
   font-size: v.$h2-font;
+}
+
+h3 {
+  font-size: v.$h3-font;
+}
+
+h4 {
+  font-size: v.$h4-font;
 }
 
 p,
