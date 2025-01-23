@@ -1,7 +1,7 @@
 import "../style/style.scss";
 
 var path = window.location.pathname;
-var page = path.split("/").pop();
+var page = path.split("/").slice(-2)[0];
 
 if (page === "pappaskamt") {
   const button = document.querySelector(".generate-joke");
