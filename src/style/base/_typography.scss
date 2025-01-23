@@ -17,10 +17,20 @@ h2 {
 }
 
 p,
-li {
+ul {
+  line-height: 2.5rem;
+}
+
+p,
+li,
+button {
   font-size: v.$p-font;
 }
 
 a {
   font-size: v.$a-font;
+}
+
+.bold {
+  font-weight: 700;
 }
