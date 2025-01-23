@@ -1,8 +1,8 @@
 {
   "hash": "87860b70df9f5e13b46b",
   "version": "5.97.1",
-  "time": 2120,
-  "builtAt": 1737661270159,
+  "time": 2010,
+  "builtAt": 1737665131653,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
   "assetsByChunkName": {
@@ -1922,8 +1922,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "82ae59aa50ddd4a556d3",
       "version": "5.97.1",
-      "time": 899,
-      "builtAt": 1737661268965,
+      "time": 996,
+      "builtAt": 1737665130665,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
       "assetsByChunkName": {},
