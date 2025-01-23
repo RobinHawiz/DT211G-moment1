@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as v;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: v.$h1-font;
+}
+
+h2 {
+  font-size: v.$h2-font;
+}
+
+p,
+li {
+  font-size: v.$p-font;
+}
+
+a {
+  font-size: v.$a-font;
+}

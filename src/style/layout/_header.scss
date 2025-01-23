@@ -1,0 +1,21 @@
+@use "../abstracts/mixins" as m;
+
+header {
+  @include m.flex(normal, center, column);
+  min-height: 10vh;
+  margin-bottom: 3rem;
+  .header-content {
+    max-width: 62.5rem;
+    margin: 2rem auto;
+  }
+  ul {
+    @include m.flex(normal, center, row);
+    gap: 2rem;
+  }
+  li {
+    list-style: none;
+  }
+  .active {
+    text-decoration: underline;
+  }
+}

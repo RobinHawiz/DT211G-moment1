@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as v;
+
+body {
+  background-color: v.$primary-color;
+  color: v.$secondary-color;
+}
+
+header {
+  background-color: v.$overlay-el-lvl-1-color;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+a {
+  color: v.$secondary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
