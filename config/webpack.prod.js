@@ -9,7 +9,7 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     path: path.resolve(__dirname, "../dist"),
-    filename: "js/[name].[contenthash].js",
+    filename: "js/[name].bundle.js",
     clean: true,
   },
   module: {

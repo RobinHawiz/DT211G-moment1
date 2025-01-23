@@ -6,7 +6,7 @@ const BundleAnalyzerPlugin =
 
 module.exports = {
   entry: {
-    bundle: path.resolve(__dirname, "../src/index.js"),
+    bundle: path.resolve(__dirname, "../src/js/index.js"),
   },
   output: {
     assetModuleFilename: "img/[name][ext][query]",
