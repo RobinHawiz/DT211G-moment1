@@ -136,10 +136,10 @@
         <article>
           <h4>Loaders</h4>
           <p>
-            Webpack möjliggör användning av loaders för att förbehandla filer.
-            Detta gör att du kan skapa bundles för statiska resurser utöver
-            JavaScript. I nedanstående lista beskriver jag vad varje loader gör
-            för något:
+            Webpack möjliggör användning av loaders (node moduler) för att
+            förbehandla filer. Detta gör att du kan skapa bundles för statiska
+            resurser utöver JavaScript. I nedanstående lista beskriver jag vad
+            varje loader gör för något:
           </p>
           <ul>
             <li>
@@ -189,6 +189,61 @@
                 <span class="bold">style-loader:</span>
                 Lägger till CSS:en, som exporteras av JavaScript-modulen, i en
                 style-tagg vid körning.
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h4>Plugins</h4>
+          <p>
+            Plugins är ytterligare node moduler som vanligtvis behandlar redan
+            skapade bundles. I nedanstående lista beskriver jag vad varje plugin
+            gör för något:
+          </p>
+          <ul>
+            <li>
+              <p>
+                <span class="bold">webpack-bundle-analyzer:</span> Skapar en
+                interaktiv visualisering av innehållet i alla bundles.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">html-webpack-plugin:</span>
+                Genererar en HTML5-fil som inkluderar alla dina moduler med
+                hjälp av skript-taggar. Den lägger också till link-taggar för
+                CSS-filer.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">mini-css-extract-plugin:</span>
+                Den skapar en CSS-fil per javascript modul som innehåller CSS.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">image-minimizer-webpack-plugin:</span>
+                Komprimerar bilder med
+                <a class="link" href="https://github.com/imagemin/imagemin"
+                  >imagemin</a
+                >.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">terser-webpack-plugin:</span>
+                Använder
+                <a class="link" href="https://github.com/terser/terser"
+                  >terser</a
+                >
+                för att minifiera JavaScript. Webpack v5 har
+                terser-webpack-plugin redan inbyggt. Men vill man anpassa
+                alternativen så måste man fortfarande installera
+                terser-webpack-plugin. Jag gör detta i webpack.prod.js eftersom
+                att jag sätter attributet extractComments till false för att
+                förhindra skapandet av en licens text som annars läggs till i
+                min produktionskod (i dist foldern).
               </p>
             </li>
           </ul>
