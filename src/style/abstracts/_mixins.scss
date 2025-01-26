@@ -4,3 +4,8 @@
   justify-content: $justify;
   flex-direction: $direction;
 }
+
+@mixin grid($columns: null) {
+  display: grid;
+  grid-template-columns: $columns;
+}
