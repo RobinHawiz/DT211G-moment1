@@ -1,13 +1,13 @@
 {
-  "hash": "2c19660474a0978425d6",
+  "hash": "82d2d387dd7b9cb83e3b",
   "version": "5.97.1",
-  "time": 1946,
-  "builtAt": 1737895436838,
+  "time": 1953,
+  "builtAt": 1737904296267,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
   "assetsByChunkName": {
     "bundle": [
-      "style/bundle.80572e1e1eae7cde64fc.css",
+      "style/bundle.607727b0c024976d8192.css",
       "js/bundle.621dee7ab5612c843e7a.js"
     ]
   },
@@ -42,12 +42,12 @@
     {
       "type": "asset",
       "name": "arbetsprocess/index.html",
-      "size": 9795,
+      "size": 10303,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 9795
+        "size": 10303
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -104,14 +104,14 @@
     },
     {
       "type": "asset",
-      "name": "style/bundle.80572e1e1eae7cde64fc.css",
+      "name": "style/bundle.607727b0c024976d8192.css",
       "size": 2179,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "80572e1e1eae7cde64fc",
+        "contenthash": "607727b0c024976d8192",
         "size": 2179
       },
       "chunkNames": [
@@ -167,11 +167,11 @@
         "bundle"
       ],
       "files": [
-        "style/bundle.80572e1e1eae7cde64fc.css",
+        "style/bundle.607727b0c024976d8192.css",
         "js/bundle.621dee7ab5612c843e7a.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "6a51d7266d3ce80894dc",
+      "hash": "fc7ecdc281f2dbf5f6e2",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
@@ -1869,7 +1869,7 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.80572e1e1eae7cde64fc.css",
+          "name": "style/bundle.607727b0c024976d8192.css",
           "size": 2179
         },
         {
@@ -1895,7 +1895,7 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.80572e1e1eae7cde64fc.css",
+          "name": "style/bundle.607727b0c024976d8192.css",
           "size": 2179
         },
         {
@@ -1920,10 +1920,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "97b99189aa974378ce36",
+      "hash": "37fb6391fc7b2191cad6",
       "version": "5.97.1",
-      "time": 862,
-      "builtAt": 1737895435780,
+      "time": 974,
+      "builtAt": 1737904295314,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
       "assetsByChunkName": {},
@@ -1934,9 +1934,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 11581,
+          "size": 12095,
           "sizes": {
-            "javascript": 10288,
+            "javascript": 10802,
             "runtime": 1293
           },
           "names": [
@@ -1948,7 +1948,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "d46031d8a458d3165c1e",
+          "hash": "40978e932e9fd1774284",
           "childrenByOrder": {},
           "id": 385,
           "siblings": [],
@@ -1959,9 +1959,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 10175,
+              "size": 10689,
               "sizes": {
-                "javascript": 10175
+                "javascript": 10689
               },
               "built": true,
               "codeGenerated": true,
@@ -2024,7 +2024,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-9872"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-10374"
               ],
               "depth": 0
             },
@@ -2902,7 +2902,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "1de2aa2c1ebb6edf3eb7",
+          "hash": "cebce715b7050cacc0b6",
           "childrenByOrder": {},
           "id": 927,
           "siblings": [],
@@ -3525,9 +3525,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10175,
+          "size": 10689,
           "sizes": {
-            "javascript": 10175
+            "javascript": 10689
           },
           "built": true,
           "codeGenerated": true,
@@ -3589,7 +3589,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-9872"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-10374"
           ],
           "depth": 0
         },
