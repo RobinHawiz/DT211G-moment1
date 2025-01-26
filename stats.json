@@ -1,13 +1,13 @@
 {
-  "hash": "656c565856120ca7b35f",
+  "hash": "2c19660474a0978425d6",
   "version": "5.97.1",
-  "time": 1980,
-  "builtAt": 1737889844838,
+  "time": 1946,
+  "builtAt": 1737895436838,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
   "assetsByChunkName": {
     "bundle": [
-      "style/bundle.871617ace281e829937b.css",
+      "style/bundle.80572e1e1eae7cde64fc.css",
       "js/bundle.621dee7ab5612c843e7a.js"
     ]
   },
@@ -41,6 +41,25 @@
     },
     {
       "type": "asset",
+      "name": "arbetsprocess/index.html",
+      "size": 9795,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 9795
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "js/334.1c93a4cc73517e83bfe6.js",
       "size": 7831,
       "emitted": true,
@@ -66,25 +85,6 @@
     },
     {
       "type": "asset",
-      "name": "arbetsprocess/index.html",
-      "size": 6492,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 6492
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "index.html",
       "size": 2211,
       "emitted": true,
@@ -104,15 +104,15 @@
     },
     {
       "type": "asset",
-      "name": "style/bundle.871617ace281e829937b.css",
-      "size": 2207,
+      "name": "style/bundle.80572e1e1eae7cde64fc.css",
+      "size": 2179,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "871617ace281e829937b",
-        "size": 2207
+        "contenthash": "80572e1e1eae7cde64fc",
+        "size": 2179
       },
       "chunkNames": [
         "bundle"
@@ -153,10 +153,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 20446,
+      "size": 20418,
       "sizes": {
         "javascript": 10940,
-        "css/mini-extract": 2206,
+        "css/mini-extract": 2178,
         "runtime": 7300
       },
       "names": [
@@ -167,11 +167,11 @@
         "bundle"
       ],
       "files": [
-        "style/bundle.871617ace281e829937b.css",
+        "style/bundle.80572e1e1eae7cde64fc.css",
         "js/bundle.621dee7ab5612c843e7a.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "7987b63bf9a77825d859",
+      "hash": "6a51d7266d3ce80894dc",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
@@ -241,9 +241,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 2206,
+          "size": 2178,
           "sizes": {
-            "css/mini-extract": 2206
+            "css/mini-extract": 2178
           },
           "built": true,
           "codeGenerated": true,
@@ -1001,9 +1001,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 2206,
+      "size": 2178,
       "sizes": {
-        "css/mini-extract": 2206
+        "css/mini-extract": 2178
       },
       "built": true,
       "codeGenerated": true,
@@ -1068,9 +1068,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2638,
+      "size": 2610,
       "sizes": {
-        "javascript": 2638
+        "javascript": 2610
       },
       "built": true,
       "codeGenerated": true,
@@ -1869,8 +1869,8 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.871617ace281e829937b.css",
-          "size": 2207
+          "name": "style/bundle.80572e1e1eae7cde64fc.css",
+          "size": 2179
         },
         {
           "name": "js/bundle.621dee7ab5612c843e7a.js",
@@ -1878,7 +1878,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 12758,
+      "assetsSize": 12730,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1895,8 +1895,8 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.871617ace281e829937b.css",
-          "size": 2207
+          "name": "style/bundle.80572e1e1eae7cde64fc.css",
+          "size": 2179
         },
         {
           "name": "js/bundle.621dee7ab5612c843e7a.js",
@@ -1904,7 +1904,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 12758,
+      "assetsSize": 12730,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1920,10 +1920,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "17bfaa74ef81dff38b07",
+      "hash": "97b99189aa974378ce36",
       "version": "5.97.1",
-      "time": 880,
-      "builtAt": 1737889843765,
+      "time": 862,
+      "builtAt": 1737895435780,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
       "assetsByChunkName": {},
@@ -1934,9 +1934,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 8176,
+          "size": 11581,
           "sizes": {
-            "javascript": 6883,
+            "javascript": 10288,
             "runtime": 1293
           },
           "names": [
@@ -1948,7 +1948,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "1b6aabb22fe124882be2",
+          "hash": "d46031d8a458d3165c1e",
           "childrenByOrder": {},
           "id": 385,
           "siblings": [],
@@ -1959,9 +1959,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 6770,
+              "size": 10175,
               "sizes": {
-                "javascript": 6770
+                "javascript": 10175
               },
               "built": true,
               "codeGenerated": true,
@@ -2024,7 +2024,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-6529"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-9872"
               ],
               "depth": 0
             },
@@ -3525,9 +3525,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6770,
+          "size": 10175,
           "sizes": {
-            "javascript": 6770
+            "javascript": 10175
           },
           "built": true,
           "codeGenerated": true,
@@ -3589,7 +3589,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-6529"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-9872"
           ],
           "depth": 0
         },
