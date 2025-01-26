@@ -6,6 +6,7 @@ const generateHtmlPlugin = (pageName) => {
       title: pageName,
       filename: `index.html`,
       template: `./src/pages/index.html`,
+      scriptLoading: "blocking",
       inject: "body",
     });
   } else {
@@ -13,6 +14,7 @@ const generateHtmlPlugin = (pageName) => {
       title: pageName,
       filename: `${pageName}/index.html`,
       template: `./src/pages/${pageName}/index.html`,
+      scriptLoading: "blocking",
       inject: "body",
     });
   }
