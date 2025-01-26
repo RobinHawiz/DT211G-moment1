@@ -1,8 +1,8 @@
 {
   "hash": "f6c553ef0de4a3fb4bbc",
   "version": "5.97.1",
-  "time": 38248,
-  "builtAt": 1737923186492,
+  "time": 38301,
+  "builtAt": 1737924285728,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
   "assetsByChunkName": {
@@ -2450,12 +2450,12 @@
     {
       "type": "asset",
       "name": "arbetsprocess/index.html",
-      "size": 10298,
+      "size": 10284,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 10298
+        "size": 10284
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -2525,12 +2525,12 @@
     {
       "type": "asset",
       "name": "bilder/index.html",
-      "size": 8469,
+      "size": 8455,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8469
+        "size": 8455
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -2706,12 +2706,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 2201,
+      "size": 2187,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2201
+        "size": 2187
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -2725,12 +2725,12 @@
     {
       "type": "asset",
       "name": "pappaskamt/index.html",
-      "size": 1461,
+      "size": 1447,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1461
+        "size": 1447
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -4517,8 +4517,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "49348966d16b4995c8e8",
       "version": "5.97.1",
-      "time": 37831,
-      "builtAt": 1737923186101,
+      "time": 37870,
+      "builtAt": 1737924285323,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment1/DT211G-moment1/dist",
       "assetsByChunkName": {},
