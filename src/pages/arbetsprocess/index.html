@@ -33,6 +33,9 @@
           för modulbaserad paketering av webbresurser. Webpack hanterar olika
           typer av filer, inklusive JavaScript, CSS, bilder och andra
           tillgångar, och skapar en optimerad version av dessa för produktion.
+          Men i grunden förstår Webpack endast Javascript och JSON. Man måste
+          använda loaders och plugins för att utöka webpacks funktionalitet,
+          vilket man kan göra mha loaders och plugins.
         </p>
       </article>
       <article>
@@ -55,7 +58,7 @@
           <h4>Attribut</h4>
           <p>
             I nedanstående lista beskriver jag vad varje attribut i objektet
-            står för.
+            står för:
           </p>
           <ul>
             <li>
@@ -129,6 +132,60 @@
             Det finns många fler attribut men detta ger ett hum kring vad
             attributen i konfigurationsfilerna står för.
           </p>
+        </article>
+        <article>
+          <h4>Loaders</h4>
+          <p>
+            Webpack möjliggör användning av loaders för att förbehandla filer.
+            Detta gör att du kan skapa bundles för statiska resurser utöver
+            JavaScript. I nedanstående lista beskriver jag vad varje loader gör
+            för något:
+          </p>
+          <ul>
+            <li>
+              <p>
+                <span class="bold">babel-loader:</span> Babel är en
+                JavaScript-transpilerare som konverterar JavaScript till vanlig
+                gammal ES5 JavaScript som kan köras i vilken webbläsare som
+                helst (även de gamla).
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">html-loader:</span> Konverterar HTML till en
+                sträng som innehåller HTML-markup. HTML-loader översätter också
+                alla laddningsbara attribut till require()-anrop. Detta eftersom
+                JavaScript inte förstår HTML-relaterad syntax som src, href,
+                etc, men den förstår require()-syntaxen, som är
+                JavaScript-relaterad syntax. I följande länk
+                <a
+                  class="link"
+                  href="https://webpack.js.org/loaders/html-loader/"
+                  >https://webpack.js.org/loaders/html-loader/</a
+                >
+                kan du se vilka laddningsbara attribut som stöds.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">sass-loader:</span>
+                Konverterar Sass till CSS.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">css-loader:</span>
+                Konverterar CSS till en Javascript modul.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="bold">style-loader:</span>
+                Lägger till CSS:en, som exporteras av JavaScript-modulen, i en
+                style-tagg vid körning.
+              </p>
+            </li>
+          </ul>
         </article>
       </article>
     </section>
