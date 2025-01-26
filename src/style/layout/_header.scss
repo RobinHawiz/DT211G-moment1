@@ -4,7 +4,7 @@ header {
   @include m.flex(normal, center, column);
   min-height: 10vh;
   margin-bottom: 3rem;
-  .header-content {
+  nav {
     max-width: 60.5rem;
     margin: 2rem auto;
     padding: 0 1rem;

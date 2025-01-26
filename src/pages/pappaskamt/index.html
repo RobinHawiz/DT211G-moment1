@@ -8,38 +8,41 @@
   </head>
   <body>
     <header>
-      <div class="header-content">
+      <nav>
         <ul>
           <li><a href="..">Startsida</a></li>
           <li><a href="../bilder">Bilder</a></li>
           <li><a href="../arbetsprocess">Arbetsprocess</a></li>
           <li><a class="active" href=".">Pappaskämt</a></li>
         </ul>
-      </div>
+      </nav>
     </header>
-    <section>
-      <h1>Pappaskämt generator</h1>
-      <p>
-        Denna sida existerar som ett exempel för att demonstrera hur
-        code-splitting används. Javascript-filen som används för att generera
-        skämt via ett API laddas enbart ner efter att knappen har tryckts. Detta
-        eftersom vi inte behöver koden bakom funktionaliteten förrän användaren
-        faktiskt behöver den. Detta förbättar sidans initiella laddningstid.
-      </p>
-    </section>
-    <section>
-      <h2>Generator</h2>
-      <p>
-        Tryck på knappen nedan för att generera ett skämt (endast engelska, men
-        den första bjuder jag på, på svenska. Och ja, tanken är att du ska
-        skratta).
-      </p>
-      <p class="bold">Skämt:</p>
-      <p class="joke">
-        Två män satt i en båt, en rodde åt väst och en åt ost. Vilket håll gick
-        båten? Åt väst för den andra åt ost.
-      </p>
-      <button class="generate-joke">Ge mig ett skämt</button>
-    </section>
+    <main>
+      <section>
+        <h1>Pappaskämt generator</h1>
+        <p>
+          Denna sida existerar som ett exempel för att demonstrera hur
+          code-splitting används. Javascript-filen som används för att generera
+          skämt via ett API laddas enbart ner efter att knappen har tryckts.
+          Detta eftersom vi inte behöver koden bakom funktionaliteten förrän
+          användaren faktiskt behöver den. Detta förbättar sidans initiella
+          laddningstid.
+        </p>
+      </section>
+      <section>
+        <h2>Generator</h2>
+        <p>
+          Tryck på knappen nedan för att generera ett skämt (endast engelska,
+          men den första bjuder jag på, på svenska. Och ja, tanken är att du ska
+          skratta).
+        </p>
+        <p class="bold">Skämt:</p>
+        <p class="joke">
+          Två män satt i en båt, en rodde åt väst och en åt ost. Vilket håll
+          gick båten? Åt väst för den andra åt ost.
+        </p>
+        <button class="generate-joke">Ge mig ett skämt</button>
+      </section>
+    </main>
   </body>
 </html>
