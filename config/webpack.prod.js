@@ -34,13 +34,13 @@ module.exports = merge(common, {
         },
         generator: [
           {
-            // You can apply generator using `?as=jpeg`
+            // You can apply generator using `?as=jpg`
             preset: "jpg",
             implementation: ImageMinimizerPlugin.sharpGenerate,
             options: {
               encodeOptions: {
                 jpeg: {
-                  quality: 80,
+                  quality: 70,
                 },
               },
             },
@@ -52,7 +52,7 @@ module.exports = merge(common, {
             options: {
               encodeOptions: {
                 webp: {
-                  quality: 80,
+                  quality: 85,
                 },
               },
             },
@@ -64,7 +64,7 @@ module.exports = merge(common, {
             options: {
               encodeOptions: {
                 avif: {
-                  quality: 50,
+                  quality: 60,
                 },
               },
             },
