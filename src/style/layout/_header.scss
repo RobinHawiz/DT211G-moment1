@@ -5,11 +5,13 @@ header {
   min-height: 10vh;
   margin-bottom: 3rem;
   .header-content {
-    max-width: 62.5rem;
+    max-width: 60.5rem;
     margin: 2rem auto;
+    padding: 0 1rem;
   }
   ul {
     @include m.flex(normal, center, row);
+    flex-wrap: wrap;
     gap: 2rem;
   }
   li {
